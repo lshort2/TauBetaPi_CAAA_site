@@ -1,0 +1,354 @@
+.topbanner {
+   /*height: 10%;
+   width: 100%;
+   height: 15%;*/
+   overflow: hidden;
+   width: 100%;
+   max-height: 20%;
+   height: 120px;
+
+   /*border-color: #B5142F;*/
+   border-color: #000000;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+}
+.topbanner > img {
+   /*margin-top: -20px;*/
+   width: 100%;
+   height: auto;
+   vertical-align: middle;
+   /*margin-left: auto;
+   margin-right: auto;
+   display: block;*/
+}
+.carousel {
+   border-color: #000000;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+}
+h3, .h3 {
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.panel-primary {
+   border-color: #B5142F;
+}
+.panel-primary>.panel-heading {
+	background-color: #B5142F;
+   border-color: #B5142F;
+}
+.panel-custom {
+   border-color: #B5142F;
+   margin-bottom: -6px;
+}
+.panel-custom>.panel-heading {
+	background-color: #B5142F;
+   border-color: #B5142F;
+}
+.contain {
+   object-fit: contain;
+}
+/*.carousel.slide {
+    height: 100px;
+    width: 100%;
+    min-width: 800px;
+    max-height: 400px;
+}*/
+
+/*.carousel-inner .item .carousel-card {*/
+/*.carousel-inner > .item > .img {*/
+.carousel-inner>.item> img,
+.carousel-inner > .item > a > img {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    /*max-width: 100%;
+    height: 200x;
+    max-height: 90%;*/
+}
+.homepage-paragraph {
+    padding-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* need to change class for navbar... D:
+ * .container-full {
+  margin: 0 auto;
+  width: 100%;
+	overflow: hidden;
+}*/
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand{
+    	padding-top: 0px;
+    	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 5px;/*laziness*/
+}
+.navbar-static-top{
+    	padding-left: 0px;
+}
+.navbar-nav>li>a>img{
+    	padding-top: 0px;
+	padding-bottom: 0px;
+}
+/* Responsive iFrame */
+.center iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+}
+img.icon-image {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-body{
+	border-bottom-style: groove;
+	padding-bottom: 50px;
+	padding-top: 0px;
+	overflow: hidden;
+}
+.container-banner2>img{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 48%;
+   max-width: 500px;
+	/*margin-left: 26%;*/
+}
+.container-banner{
+	background-image: url(../img/banner_with_csu_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40% 50%;
+	padding-top: 50px;
+	margin-top: 50px;
+	border-top: 1px groove;
+	height: 200px;
+	width: 100%;
+}
+.container-icon{
+    	padding-right: 35px;
+	width: 90%;
+	text-align: right;
+}
+.container-footer{
+    	padding-top: 10px;
+	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	color: white;
+	text-align: center;/*otherwise buttons will break*/
+	clear: both;
+	height: 90px;
+	overflow: hidden;
+}
+.container-navbar{
+    	padding-right: 15px;
+	padding-left: 15px;
+	/*margin-right: 0px;
+	margin-left: 0px;*/
+	font-size: 16px;
+}
+.heading-style{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: 10px;
+	/*padding-top: 6px;*/
+}
+.heading-div-two{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+}
+.heading-div{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+	margin-left: -15px;
+}
+.heading-div-events{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+}
+.heading-div-alt{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+	margin-right: -15px;
+}
+.section-div{
+	background-color: white;
+}
+.section-div-alt{
+	background-color: white;
+	margin-left: -15px;
+}
+.section-div-alt-two{
+	background-color: white;
+}
+p.paragraph-format{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height: 1.5;
+   margin: 6px 6px;
+	/*margin-top: 10px;*/
+}
+p.text-spice{
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.calendar-wrapper{
+   padding-top: 0px;
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+.wrapper{
+	/*width: 70%;*/
+   padding-top: 20px;
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+}
+@media (max-width: 978px) {
+	.heading-div-alt{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+	margin-left: -15px;
+	margin-right: -15px;
+	}
+	.heading-div{
+    	background-color: #B5142F;
+	/*background-color: rgb(196,30,58);*/
+	height: 30px;
+	margin-left: -15px;
+	margin-right: -15px;
+	}
+	.section-div-alt-two{
+	background-color: white;
+	margin-left: -15px;
+	}
+	.wrapper{
+	width: 98%;
+	margin: 0 auto;
+	text-align: left;
+	}
+	.container-banner{
+	background-image: url(../img/banner_with_csu_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80% 50%;
+	padding-top: 50px;
+	margin-top: 50px;
+	border-top: 1px groove;
+	height: 200px;
+	width: 100%;
+	}
+}
+@media (max-width: 500px){
+	.container-banner{
+	background-image: url(../img/banner_with_csu_logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90% 40%;
+	padding-top: 50px;
+	margin-top: 50px;
+	border-top: 1px groove;
+	height: 200px;
+	width: 100%;
+	}
+}
+@media (min-width: 1599px) {
+	.wrapper{
+	width: 55%;
+	margin: 0 auto;
+	text-align: left;
+	}
+}
+.jumbotron{
+	background: #000 url(../img/IMG_3461.jpg) no-repeat center center;/*@@@*/
+	position: relative;
+	width: 100%;
+  height: 150px;
+  background-size: cover;
+  overflow: hidden;
+}
+.jumbotron-two{
+	background: #000 url(http://www.ecst.csuchico.edu/tbp/img/IMG_6548.jpg) no-repeat center center;
+	position: relative;
+	width: 100%;
+  height: 150px;
+  background-size: cover;
+  overflow: hidden;
+	margin-bottom: 30px;
+}
+/* uncommented?! */
+.row-padded{
+	padding: 0px;
+}
+.col-padded{
+	padding: 15px;
+}
+.officer-container-style{
+   border-radius: 6px;
+	background-color: #D7DBDD;
+	border: 1px solid #DDD;
+	margin-left: 100px;
+}
+.officer-container-style-two{
+   border-radius: 6px;
+	background-color: #D7DBDD;
+	border: 1px solid #DDD;
+	margin-right: 100px;
+}
+@media (max-width: 978px) {
+    .officer-container-style {
+      margin:0px;
+    }
+		.officer-container-style-two{
+			margin:0px;
+		}
+}
+img.officer-img{
+   border-radius: 6px;
+	display: inline-block;
+    /*float: left;*/
+	height: 130px;
+	width: 130px;
+}
+div.officer-text-div{
+	display: inline-block;
+	vertical-align: top;
+}
+p.officer-text{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+p.officer-subtext{
+	/*display: block;*/
+	font-size: 18px;
+    padding-left: 16px;
+}
+.container-full h3,
+.container-full .h3 {
+    /*color: #B32929;*/
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
